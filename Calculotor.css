@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+
+
+}
+body{
+     height: 50%;
+     width: 100vh;  
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background:url("https://wallpapers.com/images/hd/desert-background-mp6oxwezasni3y21.jpg");
+     background-size: cover;
+}
+.calculator{
+    
+ border: 2px solid #000;
+    border-radius: 16px;
+    box-shadow: 0 2 15px rgba(0, 0, 0, 0.8);
+   padding: 20px;
+background: rgba(0, 0, 0, 0.5);
+margin-left: 880px;
+margin-top: 100px;
+
+}
+input{  
+        width: 320px;
+        padding: 24px;
+        margin: 10px;
+        background: rgba(0, 0, 0, 0.3);
+        box-shadow:inset 0px 0px px rgba(0, 0, 0, 0.4);
+        text-align: right;
+        font-size: 65px;
+        color: #ffff;
+        border: 2px solid rgba(0, 0,0, 0.3);
+        border-radius: 16px;
+}
+input::placeholder{
+    color: #ffff;
+    
+}
+button{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #ffff;
+    font-size: 24px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    text-shadow: 0px 1px 5px rgba(0, 0, 0e,.3);
+    box-shadow: -1px 2px 10px rgba(0, 0, 0, 0.5)
+    ;
+}   
+.ac.del{
+    font-size: 20px;
+}
+button:hover{
+    color: #ffff;
+    background-color: #f67c14;
+}
+.equal{
+    background-color: #f67c14;
+}
+.operator{
+    color: #f67c14;
+}
